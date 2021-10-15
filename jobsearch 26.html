@@ -168,6 +168,23 @@
                 </div>
             </div>
         </div>
+        <div class="sidebar">
+            <ul>
+                <li><a href="file:///C:/Users/rpl4093/Documents/Project/home.html">Home</a></li>
+                <li><a href="file:///C:/Users/rpl4093/Documents/Jobsearch%205.html">Search</a></li>
+                <li><a href="file:///C:/Users/rpl4093/Documents/Project/Jobsearch%2019.html">Save Job</a></li>
+                <li><a href="file:///C:/Users/rpl4093/Documents/Project/jobsearch%2020.html">Profile</a></li>
+            </ul>
+        </div>
+        
+        <script>
+            document.getElementsByClassName("toggler-navbar")[0].addEventListener("click", toogleClass);
+
+        function toogleClass() {
+            document.getElementsByClassName("hamburger-menu")[0].classList.toggle('open')
+            document.getElementsByClassName("sidebar")[0].classList.toggle('open')
+    }
+        </script>
           <p></p><p></p><p></p><p></p>
         <!-- Akhir Navbar -->
         <button type="button" class="btn btn-primary login"><b style="color: white;">PT. JAYA ENERGI</b><p>Jl. gelatik dua no.01</p></button>
@@ -182,22 +199,5 @@
         <button type="button" class="btn btn-primary login"><b style="color: white;">PT. SURYA EMAS</b><p>Jl. lalui aja no.09</p></button>
         <button type="button" class="btn btn-primary login"><b style="color: white;">PT. TRUBA JURANG</b><p>Jl. beo no.61</p></button>
         <button type="button" class="btn btn-primary login"><b style="color: white;">PT. INDRAYA SENTAMAS</b><p>Jl. gagang no.20</p></button>
-
-
-
-
-        <footer class="page-footer">
-            <div class="footer">
-              <div class="row">
-                <img src="">
-                <p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p>
-                <div>
-                    <a href="https://www.facebook.com/profile.php?id=100005455608939" style="margin-bottom: 50px; margin-top: 50px;"><img style="margin:5px" src="this is home.png" width="50" height="45" alt="home"></a>
-                    <a href="https://www.instagram.com/anbllaaa?r=nametag" class="div"><img style="margin:5px" src="search.png" width="50" height="45" alt="search"></a>
-                    <a href=" https://twitter.com/Anisabellaa464?s=08" class="div"><img style="margin:5px" src="savejob.png" width="50" height="45" alt="savejob"></a>
-                    <a href="https://wa.me/qr/WD2DWJNHJE7KD1" class="div"><img style="margin:5px" src="profille.png" width="50" height="45" alt="person"></a>
-              </div>
-            </div> 
-          </footer>
-    </body>
-</html>
+        </body>
+        </html>
